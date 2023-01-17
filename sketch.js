@@ -28,12 +28,12 @@ var textures = {
 var monkeyList = {
 }
 function preload() {
-	models.tackShooter = loadModel('file:///media/fuse/drivefs-846ab07ef15a2ac289d123a2a4ca8b8f/root/BTD/assets/models/tackShooter/tackshooter.obj')
-	models.dartMonkey = loadModel('file:///media/fuse/drivefs-846ab07ef15a2ac289d123a2a4ca8b8f/root/BTD/assets/models/dartMonkey/dartmonkey.obj');
-	models.heroQuincy = loadModel('file:///media/fuse/drivefs-846ab07ef15a2ac289d123a2a4ca8b8f/root/BTD/assets/models/heroQuincy/heroquincy.obj')
-	textures.monkeyBase = loadImage('file:///media/fuse/drivefs-846ab07ef15a2ac289d123a2a4ca8b8f/root/BTD/assets/models/dartMonkey/MonkeyBase.png');
-	textures.tackShooter = loadImage('file:///media/fuse/drivefs-846ab07ef15a2ac289d123a2a4ca8b8f/root/BTD/assets/models/tackShooter/tackShooter.png');
-	textures.heroQuincy = loadImage('file:///media/fuse/drivefs-846ab07ef15a2ac289d123a2a4ca8b8f/root/BTD/assets/models/heroQuincy/heroquincy.png');
+	models.tackShooter = loadModel('assets/models/tackShooter/tackshooter.obj')
+	models.dartMonkey = loadModel('assets/models/dartMonkey/dartmonkey.obj');
+	models.heroQuincy = loadModel('assets/models/heroQuincy/heroquincy.obj')
+	textures.monkeyBase = loadImage('assets/models/dartMonkey/MonkeyBase.png');
+	textures.tackShooter = loadImage('assets/models/tackShooter/tackShooter.png');
+	textures.heroQuincy = loadImage('assets/models/heroQuincy/heroquincy.png');
 }
 function setup() {
 	createCanvas(16 * 60, 9 * 60, WEBGL);
